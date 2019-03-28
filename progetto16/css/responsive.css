@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px)
+{
+	body
+	{
+		font-size : 20px;
+	}
+	
+	.sezione{
+		padding-top			: 40px; 		
+		
+	}
+	
+	.div_sinistra
+{
+	width		: 80%;
+	height		: 100px;
+	margin-right : 20px;
+	margin-left  : 20px;
+}
+
+.div_destra
+{
+	width		: 80%;
+	float		: left;
+	margin-top	: 20px;
+	margin-left: 20px;
+	margin-right : 20px;
+}
+
+  	
+  	
+}

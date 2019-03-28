@@ -1,0 +1,86 @@
+<html lang="it">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<title>Identikit Famiglie</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	</head>
+	
+	<body>
+	
+		<header>
+			<nav class="menu" >
+				<ul class="menu_list" id="menu_list">
+					
+					<li><a href="#slide2">Componenti</a></li>
+					<li><a href="#slide3">Distribuzione</a></li>
+					<li><a href="#slide4">Confronto</a></li>
+					<li><a href="#slide5">Conclusioni</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section class="slide slide-title parallax" id="slide1">	
+			<h1 class="title">Identikit della famiglia italiana</h1>
+		</section>
+		
+		<section class="slide text" id="slide2">
+			<h1 class="sectionTitle">
+				Componenti
+			</h1>
+			<div class="divCommon divLeft">
+				<p>
+					 La somma delle famiglie con pi&ugrave; di un componente raggiunge quasi il 70%.
+				</p>
+				<p>
+					La percentuale decresce all'aumentare del numero dei componenti.
+				</p>
+			</div>
+			<div class="divCommon divRight">
+				<div id="radioPie">
+					<input type="radio" name="radioPie" value="2013" checked>2013
+					<input type="radio" name="radioPie" value="2014">2014
+					<input type="radio" name="radioPie" value="2015">2015
+					<input type="radio" name="radioPie" value="2016">2016
+				</div>
+				<div id="pieChart"></div>
+			</div>
+			
+		</section>
+		
+		<section class="slide text" id="slide3">
+			<h1 class="sectionTitle">
+				Distribuzione
+			</h1>
+		</section>
+		
+		<section class="slide text" id="slide4">
+			<h1 class="sectionTitle">
+				Confronto
+			</h1>
+		</section>
+		
+		<section class="slide text" id="slide5">
+			<h1 class="sectionTitle">
+				Conclusioni
+			</h1>
+		</section>
+	<!--
+		<input type="radio" name="api" value="ampiezza" checked>Ampiezza
+		<input type="radio" name="api" value="tipologia">Tipologia
+		<br>
+		
+		<input type="radio" name="misura" value="caratteristiche" checked>Caratteristiche
+		<input type="radio" name="misura" value="migliaia">Migliaia
+		
+		<div id="miodiv">
+		</div>
+	-->
+	</body>
+</html>
